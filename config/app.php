@@ -123,4 +123,15 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    /*
+    |--------------------------------------------------------------------------
+    | Force https
+    |--------------------------------------------------------------------------
+    |
+    |   Được sử dụng trong các trường hợp application không nhận diện được request là https
+    |
+    */
+
+    'force_https' => env('APP_FORCE_HTTPS', false),
+
 ];
