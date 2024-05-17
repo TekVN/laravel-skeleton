@@ -56,6 +56,17 @@ return [
             'throw' => false,
         ],
 
+        'r2' => [
+            'driver' => 's3',
+            'key' => env('CLOUDFLARE_ACCESS_KEY_ID'),
+            'secret' => env('CLOUDFLARE_SECRET_ACCESS_KEY'),
+            'region' => env('CLOUDFLARE_REGION', 'auto'),
+            'bucket' => env('CLOUDFLARE_BUCKET'),
+            'endpoint' => $r2Endpoint = env('CLOUDFLARE_ENDPOINT'),
+            'url' => env('CLOUDFLARE_URL', $r2Endpoint),
+            'use_path_style_endpoint' => env('CLOUDFLARE_USE_PATH_STYLE_ENDPOINT', false),
+            'throw' => false,
+        ],
     ],
 
     /*
