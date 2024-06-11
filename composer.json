@@ -1,8 +1,8 @@
 {
-    "name": "ducconit/laravel-skeleton",
+    "name": "tekvn/laravel-skeleton",
     "type": "project",
     "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["DNT", "ducnt", "laravel",  "skeleton"],
+    "keywords": ["TekVN", "laravel",  "skeleton"],
     "license": "MIT",
     "require": {
         "php": "^8.3",
